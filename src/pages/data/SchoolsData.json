@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "name":"Vasireddy Venkatadri Institute of Technology (autonomous)",
+            "year":"2019-2023",
+            "course":"B.tech",
+            "branch":"Computer Science and Engineering",
+            "board":"JNTU Kakinada",
+            "cgpa":"8.89"
+        },
+        {
+            "name":"Sri Chaitanya Junior College",
+            "year":"2017-2019",
+            "course":"Intermediate",
+            "branch":"MPC",
+            "board":"AP State Board (BIEAP)",
+            "cgpa":"9.94"
+        },
+        {
+            "name":"Bhashyam Educational Institutions",
+            "year":"2016-2017",
+            "course":"SSC",
+            "board":"AP State Board (BSEAP)",
+            "cgpa":"9.8"
+          }
+
+    ]
+}

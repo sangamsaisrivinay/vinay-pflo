@@ -1,0 +1,48 @@
+{
+    "glass":{
+        "background": "rgba( 255, 255, 255, 0.1)",
+        "boxShadow": "0 0 10px  #0d6efd",
+        "backdropFilter": "blur( 2px )",
+        "borderRadius": "10px",
+        "border": "1px solid rgba( 255, 255, 255, 0.18 )",
+        "minWidth":"70vw",
+        "minHeight":"50%",
+        "display":"flex",
+        "flexDirection":"column",
+        "justify-content":"flex-start",
+        "align-items":"center",
+        "padding":"20px",
+        "skillsContainer":{
+            "display":"flex",
+            "justify-content":"space-around",
+            "align-items":"space-around",
+            "padding":"0 20px 20px 0",
+            "name":{
+                "width":"50%",
+                "textAlign":"center",
+                "color":"white"
+            },
+            "level":{
+                "width":"100%",
+                "padding":"10px 0",
+                
+                "bar":{
+                    "height":"10px"
+                }                
+            },
+            "width":"100%"
+        }
+    },
+    "text":{
+        "title":{
+            "fontSize":"40px",
+            "fontWeight":"bold",
+            "color":"white",
+            "marginBottom":"10px",
+            "textTransform":"capitalize"
+        },
+        "items":{
+
+        }
+    }
+}

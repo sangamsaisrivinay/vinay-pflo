@@ -1,0 +1,14 @@
+{
+    "screwContainer":{
+        "display":"flex",
+        "justifyContent":"space-between"
+        
+   },
+    "screw":{
+        "background": "linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%)",
+        "boxShadow": "0 0 5px 0 rgba(0, 0, 0, 0.5)",
+        "width":"0.8em",
+        "height":"0.8em",
+        "borderRadius":"50%"
+    }
+}

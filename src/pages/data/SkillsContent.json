@@ -1,0 +1,32 @@
+{
+   "skills": [
+       {
+           "name": "Java",
+           "level": "80"
+        },
+        {
+            "name": "Python",
+            "level": "65"
+        },
+        {
+            "name": "Oracle, MySQL",
+            "level": "70"
+        },
+        {
+            "name": "HTML, CSS, JS",
+            "level": "70"
+        },
+        {
+            "name": "ReactJS",
+            "level": "60"
+        },
+        {
+            "name": "NodeJS, ExpressJS",
+            "level": "40"
+        },
+        {
+            "name": "Figma",
+            "level": "60"
+        }
+   ]
+}

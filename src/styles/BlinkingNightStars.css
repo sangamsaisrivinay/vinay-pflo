@@ -1,0 +1,13 @@
+.blinking-night-stars-container {
+    width: 100%;
+    height: auto;
+    padding: 10% 0;
+    position: relative;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

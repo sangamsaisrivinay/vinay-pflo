@@ -1,0 +1,26 @@
+.random-dots-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .random-dots-container .star {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    animation: blinking  infinite;
+  }
+  
+  @keyframes blinking {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
