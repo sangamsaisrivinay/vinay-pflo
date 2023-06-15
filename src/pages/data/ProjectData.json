@@ -1,34 +1,54 @@
 {
-    "data":[
-        {"title":"women self help groups information portal",
-        "imagePath":"",
-        "description":"A standalone application was developed using java swing ui and Mysql data base to store information of women self help groups in an organised way",
-        "link":""
+    "projects":[
+        {"title":"bird species identification using audio signal processing and alexnet neural networks",
+        "type":"major",
+        "description":"The project aims to classify bird species accurately using audio recordings.",
+        "link":"https://github.com/sangamsaisrivinay/portfolio-projects/tree/main/majorproject-birdspecies",
+        "skills":["python","jupyter note books", "data preprocessing", "numpy", "pandas", "matplotlib", "seaborn", "tensorflow", "machine learning", "deep learning", ""],  
+        "duration":"dec 2022 - apr 2023"
         },
-        {"title":"women self help groups information portal",
-        "imagePath":"",
-        "description":"A standalone application was developed using java swing ui and Mysql data base to store information of women self help groups in an organised way",
-        "link":""
+        
+        {"title":"decentralized crypto currency exchange application",
+        "type":"major",
+        "description":"The major project aimed to develop a decentralized web application akin to Uniswap for exchanging cryptocurrencies, utilizing the Ethereum stack and React. The outcome involved the creation of a robust and secure platform that enabled seamless peer-to-peer trading of digital assets. The project successfully implemented smart contract functionalities, integrated Ethereum wallets, and provided a user-friendly interface for efficient cryptocurrency exchanges.",
+        "link":"",
+        "skills":["React","HTML5","CSS3","JS","Ethereum","Blockchain","web3","DeFi","solidity","metamask","smart contracts"],     
+        "duration":"aug 2022 - nov 2022"
         },
-        {"title":"women self help groups information portal",
-        "imagePath":"",
-        "description":"A standalone application was developed using java swing ui and Mysql data base to store information of women self help groups in an organised way",
-        "link":""
+        
+        {
+        "title":"Building an Image Enhancer using Deep Learning and SICE Techniques",
+        "type":"major",
+        "description":"The project utilizes the lol dataset and leverages W&B tools. The aim is to develop an advanced image enhancement system that combines deep learning algorithms with SICE techniques. By integrating these methodologies, the project enhances image quality and sharpness, leading to improved visual representations. The combination of the lol dataset and W&B tools empowers the project to achieve accurate and efficient results.",
+        "link":"",
+        "skills":["python","jupyter note books", "numpy", "pandas", "matplotlib", "seaborn", "tensorflow", "machine learning", "deep learning", ""],
+        "duration":"dec 2022 - apr 2023"
         },
-        {"title":"women self help groups information portal",
-        "imagePath":"",
-        "description":"A standalone application was developed using java swing ui and Mysql data base to store information of women self help groups in an organised way",
-        "link":""
+        
+        
+
+        {"title":"fullstack blogging web application",
+        "type":"mini",
+        "description":"The project involved creating a proprietary blog site using the MERN stack, designed specifically for organizations to enhance user experience compared to existing websites. This web application functions similarly to Medium, allowing the audience to view and comment on blogs. However, the privilege of creating new posts is reserved solely for the organization, ensuring content control and quality maintenance. The output is a user-friendly blogging platform with limited audience participation, empowering organizations to effectively share their insights and engage with their readers.",
+        "link":"",
+        "skills":["React","HTML5","CSS3","JS","graphQL","express","mongoDB","node js"],
+        "duration":"mar 2022 - jun 2022"
         },
+        
         {"title":"women self help groups information portal",
-        "imagePath":"",
-        "description":"A standalone application was developed using java swing ui and Mysql data base to store information of women self help groups in an organised way",
-        "link":""
+        "type":"micro",
+        "description":"The project involved developing a standalone application using Java Swing and JDBC to address the challenges faced by administrators working with women's self-help groups in remote areas. The application aimed to reduce the burden of paperwork by efficiently storing and managing information related to these groups. By leveraging the power of Java Swing for the user interface and JDBC for database connectivity, the application provided a convenient and user-friendly platform for administrators to input, maintain, and access the data. This initiative enabled streamlined data management, ensuring administrators could easily retrieve and update information, ultimately improving efficiency and effectiveness in supporting women's self-help groups in remote areas.",
+        "link":"",
+        "skills":["java", "mySQL", "sql", "JDBC","swing UI"],    
+        "duration":"apr 2021 - jul 2021"
         },
-        {"title":"women self help groups information portal",
-        "imagePath":"",
-        "description":"A standalone application was developed using java swing ui and Mysql data base to store information of women self help groups in an organised way",
-        "link":""
+        
+        {"title":"bird species identification using audio signal processing and alexnet neural networks",
+        "journal":"international journal for food and nutritional sciences",
+        "duration":"feb 2023 - apr 2023",
+        "conference":"IJRACCE",
+        "DOI":"10.48047/IJFANS/V11/I12/173",
+        "link":"https://www.ijfans.org/uploads/paper/d22d73750dede1002ee51a88297df5f3.pdf"
         }
     ]
 }
