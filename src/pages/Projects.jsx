@@ -2,25 +2,37 @@ import React from 'react'
 import  {ProjectStyles}  from '../styles'
 import { ProjectData } from './data'
 import Uniswap from '../assets/images/project-banners/uniswap.jpeg'
+import '../styles/ProjectStyles.css'
+
 const Projects = () => {
   return (
     <div style={ProjectStyles.projectsContainer}>
         <div style={ProjectStyles.title}>projects</div>
         <div style={ProjectStyles.cardsContainer}>
             {
-                ProjectData.data.map((project, index) => {
+                ProjectData.projects.map((project, index) => {
                     return(
                         <div style={ProjectStyles.glass}>
                             <img src={Uniswap} alt='no image loaded' style={ProjectStyles.glass.banner}/>
                             <div style={ProjectStyles.glass.text}>
-                                <div style={ProjectStyles.glass.text.title}>
+                                <div style={ProjectStyles.glass.text.title} className='thinScrollBar'>
                                     {project.title}
                                 </div>
-                                <div style={ProjectStyles.glass.text.description}>
+                                {project.description&&
+                                <div style={ProjectStyles.glass.text.description} className='thinScrollBar'>
                                     {project.description}
                                 </div>
+                                }
+                                {project.journal&&
+                                <div style={ProjectStyles.glass.text.journal}>
+                                    {project.journal}
+                                    {
+                                        project.conference&&
+                                        <span>- {project.conference}</span>
+                                    }
+                                </div>}
                                 <div style={ProjectStyles.glass.text.link}>
-                                    <a href={project.link} style={ProjectStyles.glass.text.link.linkText}>view project</a>
+                                    <a href={project.link} style={ProjectStyles.glass.text.link.linkText}>view</a>
                                 </div>
                             </div>
                         </div> 
@@ -34,12 +46,3 @@ const Projects = () => {
 export default Projects
 
 
-{/* <div style={ProjectStyles.glass}>
-                <img src={Uniswap} alt='no image loaded' style={ProjectStyles.glass.banner}/>
-                <div style={ProjectStyles.glass.text.title}>
-                    hello
-                </div>
-                <div style={ProjectStyles.glass.text}>
-                    hello
-                </div>
-            </div> */}
