@@ -13,7 +13,7 @@ const Projects = () => {
                 ProjectData.projects.map((project, index) => {
                     return(
                         <div style={ProjectStyles.glass}>
-                            <img src={Uniswap} alt='no image loaded' style={ProjectStyles.glass.banner}/>
+                            <img src={project.banner} alt='no image loaded' style={ProjectStyles.glass.banner}/>
                             <div style={ProjectStyles.glass.text}>
                                 <div style={ProjectStyles.glass.text.title} className='thinScrollBar'>
                                     {project.title}

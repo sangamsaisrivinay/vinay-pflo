@@ -23,11 +23,13 @@ const Schools = () => {
                     </div>
                     <div style={SchoolStyles.card.lineTwo}>
                         <div style={SchoolStyles.card.lineTwo.course}>
-                            {school.course},
+                            {school.course}
                         </div>
+                        {school.branch&&
                         <div style={SchoolStyles.card.lineTwo.branch}>
-                            {school.branch}
+                             | {school.branch}
                         </div>
+                        }
                     </div>
                     <div style={SchoolStyles.card.lineThree}>
                         <div>
