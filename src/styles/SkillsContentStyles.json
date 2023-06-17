@@ -5,7 +5,7 @@
         "backdropFilter": "blur( 2px )",
         "borderRadius": "10px",
         "border": "1px solid rgba( 255, 255, 255, 0.18 )",
-        "minWidth":"70vw",
+        "maxWidth":"70vw",
         "minHeight":"50%",
         "display":"flex",
         "flexDirection":"column",
@@ -14,22 +14,18 @@
         "padding":"20px",
         "skillsContainer":{
             "display":"flex",
-            "justify-content":"space-around",
-            "align-items":"space-around",
-            "padding":"0 20px 20px 0",
+            "justifyContent":"center",
+            "flexWrap":"wrap",
+            "padding":"0 10px",
             "name":{
-                "width":"50%",
-                "textAlign":"center",
-                "color":"white"
+                "color":"white",
+                "padding":"5px 10px",
+                "borderRadius":"5px",
+                "margin":"5px",
+                "background":"rgba( 255, 255, 255, 0.3)",
+                "backdropFilter": "blur( 2px )"
             },
-            "level":{
-                "width":"100%",
-                "padding":"10px 0",
-                
-                "bar":{
-                    "height":"10px"
-                }                
-            },
+            
             "width":"100%"
         }
     },
