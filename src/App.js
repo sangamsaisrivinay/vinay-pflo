@@ -12,9 +12,9 @@ const App = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <LazyAbout/>
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <LazySkills/>
-      </Suspense>
+      </Suspense> */}
       <Suspense fallback={<div>Loading...</div>}>
         <LazyProjects/>
       </Suspense>
