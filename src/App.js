@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Banner, Schools, Footer } from './pages';
-import {About, Skills, Projects} from './pages';
+// import {About, Skills, Projects} from './pages';
 
 const LazyAbout= lazy(()=>import ('./pages/About'))
 const LazySkills= lazy(()=>import ('./pages/Skills'))
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <Banner/>
-      {/* <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <LazyAbout/>
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
@@ -18,10 +18,10 @@ const App = () => {
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <LazyProjects/>
-      </Suspense> */}
-      <About/>
+      </Suspense>
+      {/* <About/>
       <Skills/>
-      <Projects/>
+      <Projects/> */}
       <Schools/>
       <Footer/>
     </div>
