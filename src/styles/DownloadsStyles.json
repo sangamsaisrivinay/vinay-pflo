@@ -1,0 +1,43 @@
+{
+    "DownloadsContainer":{
+        "display":"flex",
+        "flexDirection":"column",
+        "justifyContent":"space-around",
+        "alignItems":"center",
+        "padding":"20px 0",
+        "width":"100%",
+        "minHeight":"30vh",
+        "background": "linear-gradient(113deg, rgb(251, 250, 205) 24.4%, rgb(247, 163, 205) 53.7%, rgb(141, 66, 243) 99.2%)",
+        "title":{
+            "fontSize":"2em",
+            "color":"#000",
+            "marginBottom":"20px",
+            "fontWeight":"bold"
+        },
+        "files":{
+            "display":"flex",
+            "justifyContent":"space-around",
+            "alignItems":"space-around",
+            "flexWrap":"wrap",
+            "width":"100%"
+        },
+        "file":{
+            "display":"flex",
+            "flexDirection":"column",
+            "justifyContent":"space-around",
+            "alignItems":"center",
+            "width":"20%",
+            "borderRadius":"10px",
+            "height":"auto",
+            "padding":"10px 0",
+            "background":"#fff",
+            "title":{
+                "textTransform":"capitalize",
+                "marginBottom":"10px",
+                "fontWeight":"bold",
+                "textDecoration":"none",
+                "color":"#000"
+            }
+        }
+    }
+}

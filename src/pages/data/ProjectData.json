@@ -1,5 +1,12 @@
 {
     "projects":[
+
+        {"title":"my portfolio",
+        "description":"a website designed to showcase my projects and skills",
+        "link":"https://github.com/sangamsaisrivinay/vinay-pflo/tree/main",
+        "banner":"https://user-images.githubusercontent.com/68855472/246653683-5727a1c4-329d-45fe-9503-a3fe574f5342.png"
+        },
+
         {"title":"bird species identification using audio signal processing and alexnet neural networks",
         "description":"The project aims to classify bird species accurately using audio recordings.",
         "link":"https://github.com/sangamsaisrivinay/portfolio-projects/tree/main/majorproject-birdspecies",

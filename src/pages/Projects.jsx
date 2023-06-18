@@ -32,7 +32,7 @@ const Projects = () => {
                                     }
                                 </div>}
                                 <div style={ProjectStyles.glass.text.link}>
-                                    <a href={project.link} style={ProjectStyles.glass.text.link.linkText}>view</a>
+                                    <a href={project.link} target="_blank" style={ProjectStyles.glass.text.link.linkText}>view</a>
                                 </div>
                             </div>
                         </div> 

@@ -1,4 +1,5 @@
-import {faInstagram, faTwitter, faLinkedin, faMedium, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import {faInstagram, faTwitter, faLinkedin, faMedium, faGithub, faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 
 // here we  created jsx file instead of jso file because we need to import fontawesome icons which are of object
@@ -37,6 +38,11 @@ const data=[
         "name":"gmail",
         "link":"mailto:sssvinayr@gmail.com",
         "icon":faGoogle
+    },
+    {
+        "name":"fiverr",
+        "link":"https://www.fiverr.com/sangamsaisrivin?public_mode=true",
+        "icon":faCircleDollarToSlot
     },
     {
         "name":"message",
