@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/BlinkingNightStars.css';
-import '../styles/RandomDots.css';
-import { SkillsContent } from './skills-content';
+import '../styles/BlinkingNightStars.css'; //
+import '../styles/RandomDots.css'; //
+import { SkillsContent } from './skills-content'; //
 
 const Skills = () => {
   const starCount = 50; // Number of stars to generate

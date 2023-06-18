@@ -1,9 +1,9 @@
 import React from 'react'
-import {AboutStyles} from '../styles'
-import { AboutData } from './data'
-import AboutPhoto from '../assets/images/photo.jpg'
-import '../assets/fonts/aboutMeTextFont.css'
-import {Bolts } from './bolt-decor'
+import {AboutStyles} from '../styles' //
+import { AboutData } from './data' //
+import AboutPhoto from '../assets/images/photo.jpg' //
+import '../assets/fonts/aboutMeTextFont.css' //
+import {Bolts } from './bolt-decor' //
 
 const About = () => {
   return (

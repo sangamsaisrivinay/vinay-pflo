@@ -1,11 +1,11 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons';
-import {BannerStyles} from '../styles'
-import { Bolts } from './bolt-decor'
-import '../assets/fonts/bannerNameFont.css'
-import '../styles/Banner.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; //
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'; //
+import { faLaptop } from '@fortawesome/free-solid-svg-icons'; //
+import {BannerStyles} from '../styles' //
+import '../styles/Banner.css' //
+import '../assets/fonts/bannerNameFont.css'//
+import { Bolts } from './bolt-decor' //
 
 const Banner = () => {
   return (
