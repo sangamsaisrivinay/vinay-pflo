@@ -1,7 +1,7 @@
 import React from 'react'
 import { DownloadsStyles } from '../styles'
 import {DownloadsData} from './data'
-import DownloadIcon from '../assets/images/download.jpg'
+// import DownloadIcon from '../assets/images/download.jpg'
 
 const Downloads = () => {
   return (
