@@ -31,9 +31,12 @@ const Projects = () => {
                                         <span>- {project.conference}</span>
                                     }
                                 </div>}
+                                    {
+                                        project.link &&
                                 <div style={ProjectStyles.glass.text.link}>
                                     <a href={project.link} target="_blank" style={ProjectStyles.glass.text.link.linkText}>view</a>
                                 </div>
+                                    }
                             </div>
                         </div> 
                 )})
