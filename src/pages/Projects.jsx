@@ -1,19 +1,22 @@
 import React from 'react'
 import  {ProjectStyles}  from '../styles'
 import { ProjectData } from './data'
-import Uniswap from '../assets/images/project-banners/uniswap.jpeg'
+// import Uniswap from '../assets/images/project-banners/uniswap.jpeg'
 import '../styles/ProjectStyles.css'
+// import VANTA from 'vanta'
 
 const Projects = () => {
+    
+
   return (
-    <div style={ProjectStyles.projectsContainer}>
+    <div style={ProjectStyles.projectsContainer} id='projects-container'>
         <div style={ProjectStyles.title}>projects</div>
         <div style={ProjectStyles.cardsContainer}>
             {
                 ProjectData.projects.map((project, index) => {
                     return(
                         <div style={ProjectStyles.glass}>
-                            <img src={project.banner} alt='no image loaded' style={ProjectStyles.glass.banner}/>
+                            <img src={project.banner} alt='no res loaded' style={ProjectStyles.glass.banner}/>
                             <div style={ProjectStyles.glass.text}>
                                 <div style={ProjectStyles.glass.text.title} className='thinScrollBar'>
                                     {project.title}

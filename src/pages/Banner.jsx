@@ -9,7 +9,7 @@ import { Bolts } from './bolt-decor' //
 
 const Banner = () => {
   return (
-    <div style={BannerStyles.bgimage}>
+    <div style={BannerStyles.bgimage} id='banner-bg'>
         <div style={BannerStyles.glass} className='glass'>
             <Bolts/>
             <div style={BannerStyles.content}>
