@@ -12,6 +12,13 @@
         "link":"https://github.com/sangamsaisrivinay/portfolio-projects/tree/main/majorproject-birdspecies",
         "banner":"https://images.unsplash.com/photo-1614177308645-eb20c08f88d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
         },
+
+        {"title":"react super app - cuvette",
+        "description":"An application created to manage all your tasks at one place.",
+        "link":"https://cuvette-rc1.netlify.app/",
+        "banner":"https://user-images.githubusercontent.com/68855472/267068976-a82337be-1842-45c9-9870-941fd13a3771.png"
+        },
+        
         
         {"title":"decentralized crypto currency exchange application",
         "description":"The major project aimed to develop a decentralized web application akin to Uniswap for exchanging cryptocurrencies, utilizing the Ethereum stack and React. The outcome involved the creation of a robust and secure platform that enabled seamless peer-to-peer trading of digital assets. The project successfully implemented smart contract functionalities, integrated Ethereum wallets, and provided a user-friendly interface for efficient cryptocurrency exchanges.",

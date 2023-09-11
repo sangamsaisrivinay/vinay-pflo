@@ -17,6 +17,7 @@
             "justifyContent":"center",
             "flexWrap":"wrap",
             "padding":"0 10px",
+            "textTransform":"capitalize",
             "name":{
                 "color":"white",
                 "padding":"5px 10px",

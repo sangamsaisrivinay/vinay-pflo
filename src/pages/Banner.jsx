@@ -16,8 +16,8 @@ const Banner = () => {
                 <div style={BannerStyles.content.greet} className='greet'>hi there, i'm</div>
                 <div style={BannerStyles.content.main} className='main'>sai sri vinay reddy sangam</div>
             <div style={BannerStyles.content.badge}>
-            <FontAwesomeIcon icon={faLaptop} style={{"marginRight":"5px"}} />
-              engineer<span className='blinker'>_</span></div>
+              <FontAwesomeIcon icon={faLaptop} style={{"marginRight":"5px"}} />
+              Engineer<span className='blinker'>_</span></div>
             </div>
             <Bolts />
         </div>

@@ -18,7 +18,10 @@ const Footer = () => {
                         <div >
                             <a href={item.link} target='_blank'>
                                 {/* {item.name} */}
-                                <FontAwesomeIcon key={index} icon={item.icon} style={FooterStyles.footerContainer.socialContainer.icons} />
+                                <FontAwesomeIcon key={index} icon={item.icon} 
+                                // style={FooterStyles.footerContainer.socialContainer.icons} 
+                                style={{ ...FooterStyles.footerContainer.socialContainer.icons, color: item.color, }}
+                                />
                             </a>
                         </div>
                     )

@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Banner, Schools, Footer, Downloads } from './pages';
+import { Banner, Schools, Footer, Downloads, Work } from './pages';
 
 const LazyAbout= lazy(()=>import ('./pages/About'))
 const LazySkills= lazy(()=>import ('./pages/Skills'))
@@ -15,6 +15,7 @@ const App = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <LazySkills/>
       </Suspense>
+      {/* <Work/> */}
       <Suspense fallback={<div>Loading...</div>}>
         <LazyProjects/>
       </Suspense>

@@ -17,7 +17,7 @@
             "alignItems": "center",
             "zIndex": "1",
             "icons":{
-                "color":"#fff",
+                
                 "fontSize":"1.5rem",
                 "transition":"all 0.5s ease-in-out",
                 "textDecoration":"none",
