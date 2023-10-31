@@ -1,0 +1,71 @@
+
+
+.work-container{
+    /* background-color: red; */
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:3%;
+    gap: 1em;
+}
+
+.work-container > .exp-title{
+    
+    text-transform: capitalize;
+    font-weight: bold;
+    
+
+
+}
+
+.child-container{
+    
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    padding: 20px;
+    gap:10px;
+}
+
+/* .child-container > .logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: black;
+} */
+
+.child-container-one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.child-container-one > .role-name{
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+.child-container-one > .comp-name-type, .duration, .location-mode{
+    margin:0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.child-container-one > .duration, .location-mode{
+    opacity: 0.5;
+   
+}
+
+.child-container-one > .work-url{
+   
+    color: black;
+    opacity: 0.5;
+}

@@ -4,3 +4,4 @@ export {default as ProjectData} from './ProjectData.json';
 export {default as SchoolsData} from './SchoolsData.json';
 export {default as DownloadsData} from './DownloadsData.json';
 export {default as SocialData} from './SocialData.jsx';
+export {default as WorkData} from './WorkData.json'

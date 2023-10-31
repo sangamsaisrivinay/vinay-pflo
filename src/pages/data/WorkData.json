@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "logo-url":"https://production-cuvette.s3.ap-south-1.amazonaws.com/cuvette_logo.png",
+            "company-profile":"https://www.linkedin.com/company/cuvette-tech/",
+            "role":"full stack developer trainee",
+            "company":"cuvette tech",
+            "type":"apprenticeship",
+            "duration":"mar 2023 - aug 2023",
+            "location":"bengaluru, karnataka, india",
+            "mode":"remote"
+        },
+        {
+            "logo-url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWc2vQxgouuHcJuaRx6nRCLcsaEfX1XIYSgYAUE7RmIid0wN9Ew1MfJz_OeuU1CkE_Is&usqp=CAU",
+            "company-profile":"https://www.linkedin.com/company/smartinternz/",
+            "role":"salesforce developer",
+            "company":"smart internz",
+            "type":"internship",
+            "duration":"may 2023 - jul 2023",
+            "location":"guntur, andhra pradesh, india",
+            "mode":"remote",
+            "links":[
+                {"name":"certificate", "url":"https://www.linkedin.com/in/sangam-sai-sri-vinay-r/overlay/experience/2179177622/multiple-media-viewer/?profileId=ACoAACz8OogB0ep4_O_vtXSBMUjVs8mylnKMF8E&treasuryMediaId=1635535710367&type=IMAGE"}
+            ]
+           
+        }
+    ] 
+}

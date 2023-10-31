@@ -1,0 +1,17 @@
+#globe{
+    color:black;
+    padding:5px;
+    background-color: rgb(170, 205, 237);
+    border-radius: 50%;
+    animation: revolve 30s infinite ease ;
+    transform-style: preserve-3d;
+}
+
+@keyframes revolve{
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg); /* Rotate the element 360 degrees for a complete revolution */
+      }
+}
