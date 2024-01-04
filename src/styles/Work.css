@@ -64,8 +64,16 @@
    
 }
 
-.child-container-one > .work-url{
+.child-container-one > .work-url-container{
+    display: flex;
+    /* background-color: red; */
+    gap: 5%;
+    padding:0;
+    margin:0;
+}
+
+.child-container-one > .work-url-container > .work-url{
    
     color: black;
-    opacity: 0.5;
+    opacity: 0.7;
 }

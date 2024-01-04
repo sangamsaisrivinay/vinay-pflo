@@ -30,17 +30,19 @@ const Workex = () => {
               <p className="comp-name-type">{item.company} - {item.type}</p>
               <p className="duration">{item.duration}</p>
               <p className="location-mode">{item.location} - {item.mode}</p>
-              {
-                item.links &&
-                item.links.map((linkItem)=>{
-                  return(
-                    <a href={linkItem.url} target='_blank' className='work-url'>
-                      {linkItem.name}
-                      <FontAwesomeIcon icon={faExternalLinkAlt}/>
-                    </a>
-                  )
-                })
-              }
+              <div className='work-url-container'>
+                {
+                  item.links &&
+                  item.links.map((linkItem)=>{
+                    return(
+                      <a href={linkItem.url} target='_blank' className='work-url'>
+                        {linkItem.name}
+                        <FontAwesomeIcon icon={faExternalLinkAlt}/>
+                      </a>
+                    )
+                  })
+                }
+              </div>
               </div>
             </div>
           );

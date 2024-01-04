@@ -1,6 +1,26 @@
 {
     "data":[
         {
+            "logo-url":"https://www.ibm.com/design/language/4d516b7c6b76e48f285cd6f396073869/rebus-totem-positive.svg",
+            "company-profile":"https://www.linkedin.com/company/ibm/posts/?feedView=all",
+            "role":"software developer",
+            "company":"IBM software labs, india",
+            "type":"full time",
+            "duration":"jan 2024 - present",
+            "location":"kochi, kerala, india",
+            "mode":"on-site"
+        },
+        {
+            "logo-url":"https://vectorflags.s3.amazonaws.com/flags/in-square-01.png",
+            "company-profile":"https://www.falconebiz.com/company/APEXTOR-TECHNOLOGIES-PRIVATE-LIMITED-U62099TS2023PTC177220",
+            "role":"web developer intern",
+            "company":"APEXTOR TECHNOLOGIES pvt ltd.",
+            "type":"part time",
+            "duration":"nov 2023 - present",
+            "location":"IISC bengaluru, karnataka, india",
+            "mode":"remote"
+        },
+        {
             "logo-url":"https://production-cuvette.s3.ap-south-1.amazonaws.com/cuvette_logo.png",
             "company-profile":"https://www.linkedin.com/company/cuvette-tech/",
             "role":"full stack developer trainee",
@@ -8,7 +28,11 @@
             "type":"apprenticeship",
             "duration":"mar 2023 - aug 2023",
             "location":"bengaluru, karnataka, india",
-            "mode":"remote"
+            "mode":"remote",
+            "links":[
+                {"name":"frontend dev", "url":"https://www.linkedin.com/in/sangam-sai-sri-vinay-r/overlay/experience/2130143629/multiple-media-viewer/?profileId=ACoAACz8OogB0ep4_O_vtXSBMUjVs8mylnKMF8E&treasuryMediaId=1635552708513"},
+                {"name":"backend dev", "url":"https://media.licdn.com/dms/image/D4E2DAQHGkCrKX6vNHg/profile-treasury-image-shrink_800_800/0/1701917721847?e=1702537200&v=beta&t=Gtmu91dV3UlxPVLwB5dEcCMUVc9hbmZmMRCr7NggNnc"}
+            ]
         },
         {
             "logo-url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWc2vQxgouuHcJuaRx6nRCLcsaEfX1XIYSgYAUE7RmIid0wN9Ew1MfJz_OeuU1CkE_Is&usqp=CAU",
